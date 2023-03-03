@@ -17,6 +17,7 @@ class BridgeInterface {
 
     insertData(item) {
         this.implementation.insertData(item);
+        console.log('Item "' + item + '" inserted');
     }
 
 }
